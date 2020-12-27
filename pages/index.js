@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Footer from "../components/Footer";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -15,8 +16,8 @@ export default function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
             </Head>
             <Container fluid>
-                <header>
-                    <Row className={"my-4"}>
+                <header className={"my-5"}>
+                    <Row>
                         <Col>
                             <h1 className={styles.title}>
                                 Créez et partagez vos idées de cadeaux
@@ -31,14 +32,14 @@ export default function Home() {
                                 Créez votre liste de cadeaux !
                             </h2>
                             <Row>
-                                <Col xs={{ span: 8, offset: 2 }}>
+                                <Col xs={{span: 8, offset: 2}}>
                                     <Button variant={"dark"} size={'lg'} block>
                                         S'inscrire
                                     </Button>
                                 </Col>
                             </Row>
                             <Row>
-                                <Col xs={{ span: 8, offset: 2 }}>
+                                <Col xs={{span: 8, offset: 2}}>
                                     <Button variant={"dark"} size={'lg'} block>
                                         Se connecter
                                     </Button>
@@ -51,7 +52,7 @@ export default function Home() {
                             </h2>
 
                             <Row>
-                                <Col xs={{ span: 8, offset: 2 }}>
+                                <Col xs={{span: 8, offset: 2}}>
                                     <Button variant={"dark"} size={'lg'} block>
                                         Découvrir des idées
                                     </Button>
@@ -60,13 +61,14 @@ export default function Home() {
                         </Col>
                     </Row>
 
-                    <section>
+                    <section className={"my-5"}>
                         <Row>
                             <Col>
                                 <h3>Qu'est-ce que Somei ?</h3>
 
                                 <p>
-                                    Somei est une application permettant à tous de créer sa liste d'idées de cadeaux gratuitement, et de partager ses idées à tout le monde !
+                                    Somei est une application permettant à tous de créer sa liste d'idées de cadeaux
+                                    gratuitement, et de partager ses idées à tout le monde !
                                 </p>
                             </Col>
                         </Row>
@@ -84,7 +86,8 @@ export default function Home() {
                                     </ol>
 
                                     <ol>
-                                        3. Sauvegardez votre idée. Si celle-ci est publique, les autres visiteurs auront accès à votre idée, celle-ci reste anonymisée.
+                                        3. Sauvegardez votre idée. Si celle-ci est publique, les autres visiteurs auront
+                                        accès à votre idée, celle-ci reste anonymisée.
                                     </ol>
 
                                 </ul>
@@ -92,16 +95,7 @@ export default function Home() {
                         </Row>
                     </section>
                 </main>
-                <footer className={styles.footer}>
-                    <a
-                        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Powered by{' '}
-                        <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo}/>
-                    </a>
-                </footer>
+                <Footer/>
             </Container>
         </>
     )
