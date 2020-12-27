@@ -5,14 +5,19 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Somei - Idées de cadeaux</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Créez et partagez vos idées de cadeaux
         </h1>
+        <h2 className={styles.title}>
+          Créez votre liste de cadeaux pour vos amis et votre famille !
+        </h2>
 
         <p className={styles.description}>
           Get started by editing{' '}
