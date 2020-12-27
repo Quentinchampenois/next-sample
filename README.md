@@ -28,3 +28,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Aims
+
+Simple app with : 
+
+- Authentication
+- Possibility to create a new friend profile
+- For each friend profile, user can create a new gift idea
+
+- When you are not logged in, you can still access to a global list of ideas of people. Those ideas needs to be public.
+
+In homepage, filters are available to filter between kind of gifts, sexe, maybe price.
+
+
