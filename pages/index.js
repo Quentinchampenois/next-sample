@@ -59,6 +59,38 @@ export default function Home() {
                             </Row>
                         </Col>
                     </Row>
+
+                    <section>
+                        <Row>
+                            <Col>
+                                <h3>Qu'est-ce que Somei ?</h3>
+
+                                <p>
+                                    Somei est une application permettant à tous de créer sa liste d'idées de cadeaux gratuitement, et de partager ses idées à tout le monde !
+                                </p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <p>Comment créer ma liste de cadeaux ?</p>
+                                <ul>
+                                    <ol>
+                                        1. Se connecter, ou créer un compte Somei
+                                    </ol>
+
+
+                                    <ol>
+                                        2. Aller dans le formulaire d'ajout d'une idée et créez la votre !
+                                    </ol>
+
+                                    <ol>
+                                        3. Sauvegardez votre idée. Si celle-ci est publique, les autres visiteurs auront accès à votre idée, celle-ci reste anonymisée.
+                                    </ol>
+
+                                </ul>
+                            </Col>
+                        </Row>
+                    </section>
                 </main>
                 <footer className={styles.footer}>
                     <a
