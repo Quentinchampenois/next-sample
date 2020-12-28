@@ -2,6 +2,7 @@
 import { useForm } from "react-hook-form";
 // also Alert component from bootstrap
 import { Alert } from 'react-bootstrap';
+import Button from "react-bootstrap/Button";
 
 export default function Signupform() {
     // useForm()
@@ -75,10 +76,9 @@ export default function Signupform() {
                 </Alert>
                 }
             </div>
-            <button
-                type="submit"
-                className="btn btn-primary">Créer mon compte
-            </button>
+            <Button
+                type="submit" variant={"dark"} size={'lg'} block>Créer mon compte
+            </Button>
         </form>
     )
 }

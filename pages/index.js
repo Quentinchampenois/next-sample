@@ -7,12 +7,14 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
 import SHead from "../components/SHead";
+import SNavbar from "../components/Navbar";
 
 export default function Home() {
     return (
         <>
             <SHead title={"Somei, des idées de cadeaux"} />
             <Container fluid>
+                <SNavbar />
                 <header className={"my-5"}>
                     <Row>
                         <Col>
