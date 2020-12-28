@@ -12,12 +12,10 @@
     "next": "10.0.4",
     "react": "17.0.1",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "17.0.1",
-    "sqlite3": "^5.0.0"
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
     "faker": "^5.1.0",
-    "msw": "^0.24.3",
-    "sqlite": "^4.0.18"
+    "msw": "^0.24.3"
   }
 }

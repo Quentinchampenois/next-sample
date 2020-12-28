@@ -5,16 +5,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import Link from "next/link";
+import SHead from "../components/SHead";
 
 export default function Home() {
     return (
         <>
-            <Head>
-                <title>Somei - Idées de cadeaux</title>
-                <link rel="icon" href="/favicon.ico"/>
-                <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
-            </Head>
+            <SHead title={"Somei, des idées de cadeaux"} />
             <Container fluid>
                 <header className={"my-5"}>
                     <Row>
@@ -33,16 +30,11 @@ export default function Home() {
                             </h2>
                             <Row>
                                 <Col xs={{span: 8, offset: 2}}>
+                                    <Link href="/users/signin">
                                     <Button variant={"dark"} size={'lg'} block>
-                                        S'inscrire
+                                        S'identifier
                                     </Button>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col xs={{span: 8, offset: 2}}>
-                                    <Button variant={"dark"} size={'lg'} block>
-                                        Se connecter
-                                    </Button>
+                                    </Link>
                                 </Col>
                             </Row>
                         </Col>
