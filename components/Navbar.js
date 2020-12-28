@@ -44,12 +44,12 @@ export default function SNavbar() {
         return (
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text className={"mx-3"}>
-                    <Link href={"/users/logout"}>
+                    <Link href={"/users/signin"}>
                         Se connecter
                     </Link>
                 </Navbar.Text>
                 <Navbar.Text className={"mx-3"}>
-                    <Link href={"/users/logout"}>
+                    <Link href={"/users/signup"}>
                         Créer un compte
                     </Link>
                 </Navbar.Text>

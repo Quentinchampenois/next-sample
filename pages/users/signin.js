@@ -4,30 +4,31 @@ import Signupform from "../../components/Signupform";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import SNavbar from "../../components/Navbar";
+import Alert from "react-bootstrap/Alert";
 
 export default function Home() {
     return (
         <>
             <SHead title={"Somei, identification"}/>
+            <SNavbar />
 
             <Container fluid>
                 <Row>
                     <Col xs={"12"}>
-                        <h1 className={"text-center"}>Connectez-vous </h1>
+                        <h1 className={"text-center"}>Connectez-vous à votre compte Somei !</h1>
                     </Col>
-                    <Col>
-                        <h2>Formulaire de connexion</h2>
-
+                    <Col xs={"12"} md={{span: 10, offset: 1}}>
                         <Signinform />
                     </Col>
-                    <Col>
-                        <h2>Formulaire d'inscription</h2>
-
-                        <Signupform />
-                    </Col>
                 </Row>
+
                 <Row>
-                    <Col>
+                    <Col xs={"12"} md={{span: 10, offset: 1}}>
+                        <Alert variant={"warning"}>
+                            Pour le moment aucun compte n'est enregisté, vous pouvez vous connecter avec n'importe quel compte, exemple <strong>Pseudo : UserDevAccount</strong> - <strong>Password: password123456</strong>
+
+                        </Alert>
                     </Col>
                 </Row>
             </Container>

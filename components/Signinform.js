@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 // also Alert component from bootstrap
 import { Alert } from 'react-bootstrap';
 import {useRouter} from "next/router";
+import Button from "react-bootstrap/Button";
 
 export default function Signinform() {
     // useForm()
@@ -59,12 +60,10 @@ export default function Signinform() {
                 </Alert>
                 }
             </div>
-            <button
-                type="submit"
-                className="btn btn-primary">Me connecter
-            </button>
-            <h3>Pour le moment, aucun compte n'est enregistré. Vous pouvez vous connecter sur un compte sans mot de passe particulier.</h3>
 
+            <Button
+                type="submit" variant={"dark"} size={'lg'} block>Créer mon compte
+            </Button>
         </form>
     )
 }
