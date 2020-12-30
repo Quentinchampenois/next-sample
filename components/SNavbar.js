@@ -26,7 +26,9 @@ export default function SNavbar() {
                     </Link>
                 </Navbar.Text>
                 <Navbar.Text className={"mx-1 mx-md-3"}>
-                    <FontAwesomeIcon width={"30"} icon={faUserPlus} />
+                    <Link href={"/friends/add"}>
+                        <a><FontAwesomeIcon width={"30"} icon={faUserPlus} /></a>
+                    </Link>
                 </Navbar.Text>
                 <Navbar.Text className={"mx-1 mx-md-3"}>
                     <Link href={"/ideas/create"}>
