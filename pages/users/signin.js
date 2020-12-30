@@ -1,10 +1,9 @@
 import SHead from "../../components/SHead";
 import Signinform from "../../components/Signinform";
-import Signupform from "../../components/Signupform";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import SNavbar from "../../components/Navbar";
+import SNavbar from "../../components/SNavbar";
 import Alert from "react-bootstrap/Alert";
 
 export default function Home() {

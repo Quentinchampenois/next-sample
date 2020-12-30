@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Link from "next/link";
 import SHead from "../components/SHead";
-import SNavbar from "../components/Navbar";
+import SNavbar from "../components/SNavbar";
 
 export default function Home() {
     return (
@@ -48,7 +48,7 @@ export default function Home() {
                             <Row>
                                 <Col xs={{span: 8, offset: 2}}>
                                     <Button variant={"dark"} size={'lg'} block>
-                                        Découvrir des idées
+                                        <Link href={"/collection"}>Découvrir des idées</Link>
                                     </Button>
                                 </Col>
                             </Row>

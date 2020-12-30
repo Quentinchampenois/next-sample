@@ -4,7 +4,7 @@ import Signupform from "../../components/Signupform";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import SNavbar from "../../components/Navbar";
+import SNavbar from "../../components/SNavbar";
 
 export default function Home() {
     return (

@@ -21,13 +21,17 @@ export default function SNavbar() {
         return (
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text className={"mx-3"}>
-                    <FontAwesomeIcon width={"30"} icon={faList} />
+                    <Link href={"/collection"}>
+                        <a><FontAwesomeIcon width={"30"} icon={faList} /></a>
+                    </Link>
                 </Navbar.Text>
                 <Navbar.Text className={"mx-3"}>
                     <FontAwesomeIcon width={"30"} icon={faUserPlus} />
                 </Navbar.Text>
                 <Navbar.Text className={"mx-3"}>
-                    <FontAwesomeIcon width={"30"} icon={faGift} />
+                    <Link href={"/ideas/create"}>
+                        <a><FontAwesomeIcon width={"30"} icon={faGift} /></a>
+                    </Link>
                 </Navbar.Text>
                 <NavDropdown title={ pseudo } id="basic-nav-dropdown">
                     <NavDropdown.Item>

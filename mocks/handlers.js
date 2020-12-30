@@ -9,4 +9,10 @@ export const handlers = [
             })
         )
     }),
+    rest.get('/api/ideas', (req, res, ctx) => {
+        return res(ctx.json({
+                "ideas": factory.listIdeas()
+            })
+        )
+    }),
 ]
