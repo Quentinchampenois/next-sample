@@ -6,11 +6,11 @@ export default function logout() {
 
     useEffect(() => {
         localStorage.clear()
+        router.push("/")
     });
 
-    //TODO : Fix this page
-
     return(
-        router.push("/")
+        <>
+        </>
     )
 }
