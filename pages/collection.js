@@ -41,10 +41,12 @@ export default function Collection() {
                 </header>
                 <main>
                     <Row>
-                        <Col md={6}>
+                        <Col xs={{span: 10, offset: 1}}>
+                            <h3 className={"d-flex justify-content-end"}>{ ideas.length > 0 ? `${ideas.length} idées de cadeaux` : "Aucune idées de cadeaux pour le moment." }</h3>
+                            <hr/>
                             { ideas !== null ? ideas.map((idea, idx) => (
-                                <div key={idx}>
-                                    {idea}
+                                <div key={idx} className={"my-1"}>
+                                    <Idea idea={idea.name} />
                                 </div>
                             )) : ''}
                         </Col>
