@@ -20,15 +20,15 @@ export default function SNavbar() {
     const userNav = () => {
         return (
             <Navbar.Collapse className="justify-content-end">
-                <Navbar.Text className={"mx-3"}>
+                <Navbar.Text className={"mx-1 mx-md-3"}>
                     <Link href={"/collection"}>
                         <a><FontAwesomeIcon width={"30"} icon={faList} /></a>
                     </Link>
                 </Navbar.Text>
-                <Navbar.Text className={"mx-3"}>
+                <Navbar.Text className={"mx-1 mx-md-3"}>
                     <FontAwesomeIcon width={"30"} icon={faUserPlus} />
                 </Navbar.Text>
-                <Navbar.Text className={"mx-3"}>
+                <Navbar.Text className={"mx-1 mx-md-3"}>
                     <Link href={"/ideas/create"}>
                         <a><FontAwesomeIcon width={"30"} icon={faGift} /></a>
                     </Link>
@@ -61,7 +61,7 @@ export default function SNavbar() {
         )
     }
     return (
-        <Navbar>
+        <Navbar collapseOnSelect expand="md">
             <Navbar.Brand>
                 <Link href={"/"}>
                 Somei
