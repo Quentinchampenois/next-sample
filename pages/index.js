@@ -26,12 +26,12 @@ export default function Home() {
                 </header>
                 <main>
                     <Row>
-                        <Col md={6}>
+                        <Col md={6} className={"p-5"} >
                             <h2 className={"text-center"}>
                                 Créez votre liste de cadeaux !
                             </h2>
                             <Row>
-                                <Col xs={{span: 8, offset: 2}}>
+                                <Col className={"p-2"} xs={{span: 8, offset: 2}}>
                                     <Link href="/users/signin">
                                     <Button variant={"dark"} size={'lg'} block>
                                         S'identifier
@@ -40,16 +40,20 @@ export default function Home() {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className={"p-5"} >
                             <h2 className={"text-center"}>
                                 Partagez votre liste de cadeaux !
                             </h2>
 
                             <Row>
-                                <Col xs={{span: 8, offset: 2}}>
-                                    <Button variant={"dark"} size={'lg'} block>
-                                        <Link href={"/collection"}>Découvrir des idées</Link>
-                                    </Button>
+                                <Col className={"p-2"} xs={{span: 8, offset: 2}}>
+
+                                        <Link href={"/collection"}>
+                                            <Button variant={"dark"} size={'lg'} block>
+                                                Découvrir des idées
+                                            </Button>
+                                            </Link>
+
                                 </Col>
                             </Row>
                         </Col>
@@ -57,7 +61,7 @@ export default function Home() {
 
                     <section className={"my-5"}>
                         <Row>
-                            <Col>
+                            <Col xs={{span: 10, offset: 1}}>
                                 <h3>Qu'est-ce que Somei ?</h3>
 
                                 <p>
@@ -67,7 +71,7 @@ export default function Home() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
+                            <Col xs={{span: 10, offset: 1}}>
                                 <p>Comment créer ma liste de cadeaux ?</p>
                                 <ul>
                                     <ol>

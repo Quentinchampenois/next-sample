@@ -62,7 +62,11 @@ export default function SNavbar() {
     }
     return (
         <Navbar>
-            <Navbar.Brand>Somei</Navbar.Brand>
+            <Navbar.Brand>
+                <Link href={"/"}>
+                Somei
+                </Link>
+            </Navbar.Brand>
             <Navbar.Toggle />
             { isLoggedIn() ? userNav() : anonymNav() }
         </Navbar>

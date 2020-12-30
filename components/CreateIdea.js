@@ -6,8 +6,6 @@ import {useRouter} from "next/router";
 import Button from "react-bootstrap/Button";
 import ToggleButtonGroup from "react-bootstrap/ToggleButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 
 export default function CreateIdea() {
     // useForm()

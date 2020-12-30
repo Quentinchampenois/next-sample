@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 export default function Footer() {
     return (
-        <Row as={"footer"}>
+        <Row as={"footer"} className={styles.footer}>
             <Col>
                 <ul>
                     <li>Open data (à venir)</li>
