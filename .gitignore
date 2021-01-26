@@ -33,3 +33,6 @@ yarn-error.log*
 # vercel
 .vercel
 remembers.md
+
+
+backstop_data/
