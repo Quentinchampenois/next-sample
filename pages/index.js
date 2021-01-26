@@ -19,7 +19,7 @@ export default function Home() {
                     <Row>
                         <Col>
                             <h1 className={styles.title}>
-                                Créez et partagez vos idées de cadeaux
+                                Créez et partagez vos idées de cadeauxjjj
                             </h1>
                         </Col>
                     </Row>

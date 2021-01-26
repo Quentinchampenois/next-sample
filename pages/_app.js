@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const backstop = require('backstopjs');
 if (process.env.NODE_ENV !== 'production') {
   require('../mocks')
 }
