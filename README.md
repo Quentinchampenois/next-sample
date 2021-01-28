@@ -18,8 +18,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
@@ -31,14 +31,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Aims
 
-Simple app with : 
+Simple app with :
 
-- Authentication
-- Possibility to create a new friend profile
-- For each friend profile, user can create a new gift idea
+-   Authentication
+-   Possibility to create a new friend profile
+-   For each friend profile, user can create a new gift idea
 
-- When you are not logged in, you can still access to a global list of ideas of people. Those ideas needs to be public.
+-   When you are not logged in, you can still access to a global list of ideas of people. Those ideas needs to be public.
 
 In homepage, filters are available to filter between kind of gifts, sexe, maybe price.
-
-

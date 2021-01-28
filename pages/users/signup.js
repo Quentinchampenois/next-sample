@@ -9,26 +9,35 @@ import SNavbar from "../../components/SNavbar";
 export default function Home() {
     return (
         <>
-            <SHead title={"Somei, Création de votre compte"}/>
+            <SHead title={"Somei, Création de votre compte"} />
 
             <Container fluid>
                 <SNavbar />
                 <Row>
                     <Col xs={"12"}>
-                        <h1 className={"text-center"}>Inscrivez-vous, c'est gratuit et sécurisé !</h1>
+                        <h1 className={"text-center"}>
+                            Inscrivez-vous, c'est gratuit et sécurisé !
+                        </h1>
 
                         <Row>
                             <Col xs={"12"} md={{ span: 8, offset: 2 }}>
-                                <p className={"text-center"}>L'application vous demande seulement un <strong>pseudonyme</strong> ainsi qu'un <strong>mot de passe</strong> pour pouvoir accéder à votre compte. Aucune autre information ne vous sera demandé, ni maintenant, ni plus tard.</p>
+                                <p className={"text-center"}>
+                                    L'application vous demande seulement un{" "}
+                                    <strong>pseudonyme</strong> ainsi qu'un{" "}
+                                    <strong>mot de passe</strong> pour pouvoir
+                                    accéder à votre compte. Aucune autre
+                                    information ne vous sera demandé, ni
+                                    maintenant, ni plus tard.
+                                </p>
                             </Col>
                         </Row>
                     </Col>
 
-                    <Col xs={"12"} md={{span: 10, offset: 1}}>
+                    <Col xs={"12"} md={{ span: 10, offset: 1 }}>
                         <Signupform />
                     </Col>
                 </Row>
             </Container>
         </>
-    )
+    );
 }

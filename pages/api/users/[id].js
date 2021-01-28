@@ -1,8 +1,8 @@
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
-const router = useRouter()
+const router = useRouter();
 
 export default (req, res) => {
-    res.statusCode = 200
-    res.json({ name: 'John Doe' })
-}
+    res.statusCode = 200;
+    res.json({ name: "John Doe" });
+};

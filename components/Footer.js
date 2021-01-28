@@ -19,5 +19,5 @@ export default function Footer() {
                 </ul>
             </Col>
         </Row>
-    )
+    );
 }

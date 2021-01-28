@@ -1,25 +1,25 @@
 {
-  "name": "somei",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "bootstrap": "^4.5.3",
-    "next": "10.0.4",
-    "react": "17.0.1",
-    "react-bootstrap": "^1.4.0",
-    "react-dom": "17.0.1",
-    "react-hook-form": "^6.13.1"
-  },
-  "devDependencies": {
-    "faker": "^5.1.0",
-    "msw": "^0.24.3"
-  }
+    "name": "somei",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "bootstrap": "^4.5.3",
+        "next": "10.0.4",
+        "react": "17.0.1",
+        "react-bootstrap": "^1.4.0",
+        "react-dom": "17.0.1",
+        "react-hook-form": "^6.13.1"
+    },
+    "devDependencies": {
+        "faker": "^5.1.0",
+        "msw": "^0.24.3"
+    }
 }
