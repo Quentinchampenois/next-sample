@@ -1,6 +1,7 @@
 import styles from "./Footer.module.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -15,7 +16,11 @@ export default function Footer() {
             <Col>
                 <ul>
                     <li>Code source Github (à venir)</li>
-                    <li>License MIT</li>
+                    <li>
+                        <Link href="/mention-legal">
+                            <a>Mention Légales</a>
+                        </Link>
+                    </li>
                 </ul>
             </Col>
         </Row>

@@ -5,13 +5,10 @@ import Footer from "../components/Footer";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import Link from "next/link";
 import SHead from "../components/SHead";
 import SNavbar from "../components/SNavbar";
 
-export default function Contact({ posts }) {
+export default function Mention({ posts }) {
     return (
         <>
             <SHead title={"Somei, des idées de cadeaux"} />
@@ -34,7 +31,7 @@ export default function Contact({ posts }) {
                                 {posts.map((formatter, index) => {
                                     console.log(formatter.frontmatter);
                                     if (
-                                        formatter.frontmatter.slug === "contact"
+                                        formatter.frontmatter.slug === "mention"
                                     ) {
                                         return (
                                             <article
@@ -65,30 +62,6 @@ export default function Contact({ posts }) {
                                     }
                                 })}
                             </div>
-                            <Form>
-                                <Form.Group controlId="formBasicEmail">
-                                    <Form.Label>Email</Form.Label>
-                                    <Form.Control
-                                        type="email"
-                                        placeholder="Votre email"
-                                    />
-                                    <Form.Text className="text-muted">
-                                        Ne partagez pas votre adresse à des
-                                        inconnus.
-                                    </Form.Text>
-                                </Form.Group>
-
-                                <Form.Group controlId="formBasicPassword">
-                                    <Form.Label>Message</Form.Label>
-                                    <Form.Control
-                                        as="textarea"
-                                        placeholder="Votre message"
-                                    />
-                                </Form.Group>
-                                <Button variant="primary" type="submit">
-                                    Submit
-                                </Button>
-                            </Form>
                         </Col>
                         <Col></Col>
                     </Row>
