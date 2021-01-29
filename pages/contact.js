@@ -20,9 +20,7 @@ export default function Contact({ posts }) {
                 <header className={"my-5"}>
                     <Row>
                         <Col>
-                            <h1 className={styles.title}>
-                                Créez et partagez vos idées de cadeaux
-                            </h1>
+                            <h1 className={styles.title}>Contactez nous !</h1>
                         </Col>
                     </Row>
                 </header>

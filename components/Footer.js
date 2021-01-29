@@ -10,12 +10,15 @@ export default function Footer() {
                 <ul>
                     <li>Open data (à venir)</li>
                     <li>Qui sommes-nous ? (à venir)</li>
-                    <li>Mentions légales (à venir)</li>
                 </ul>
             </Col>
             <Col>
                 <ul>
-                    <li>Code source Github (à venir)</li>
+                    <li>
+                        <Link href="https://gitlab.eemi.tech/quentin.champenois/next-gift">
+                            Code source Github
+                        </Link>
+                    </li>
                     <li>
                         <Link href="/mention-legal">
                             <a>Mention Légales</a>

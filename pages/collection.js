@@ -57,6 +57,26 @@ export default function Collection() {
                                 : ""}
                         </Col>
                     </Row>
+                    <Row>
+                        <Col>
+                            <hr />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <hr />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <hr />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <hr />
+                        </Col>
+                    </Row>
                 </main>
                 <Footer />
             </Container>

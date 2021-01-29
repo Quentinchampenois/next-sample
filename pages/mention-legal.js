@@ -17,9 +17,7 @@ export default function Mention({ posts }) {
                 <header className={"my-5"}>
                     <Row>
                         <Col>
-                            <h1 className={styles.title}>
-                                Créez et partagez vos idées de cadeaux
-                            </h1>
+                            <h1 className={styles.title}>Mentions Légales</h1>
                         </Col>
                     </Row>
                 </header>
