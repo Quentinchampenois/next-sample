@@ -53,6 +53,9 @@ export default function SNavbar() {
         return (
             <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text className={"mx-3"}>
+                    <Link href={"/contact"}>Contact</Link>
+                </Navbar.Text>
+                <Navbar.Text className={"mx-3"}>
                     <Link href={"/users/signin"}>Se connecter</Link>
                 </Navbar.Text>
                 <Navbar.Text className={"mx-3"}>

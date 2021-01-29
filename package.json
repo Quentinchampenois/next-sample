@@ -20,6 +20,10 @@
     },
     "devDependencies": {
         "faker": "^5.1.0",
-        "msw": "^0.24.3"
+        "gray-matter": "^4.0.2",
+        "msw": "^0.24.3",
+        "postcss-preset-env": "^6.7.0",
+        "react-markdown": "^5.0.3",
+        "tailwindcss": "^2.0.2"
     }
 }
