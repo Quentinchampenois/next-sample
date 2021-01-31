@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import SNavbar from "../../components/SNavbar";
 import AddFriend from "../../components/AddFriend";
+import Footer from "../../components/Footer";
 
 export default function Home() {
     return (
@@ -23,6 +24,7 @@ export default function Home() {
                     </Col>
                 </Row>
             </Container>
+            <Footer />
         </>
     );
 }
