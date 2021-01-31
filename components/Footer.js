@@ -16,12 +16,12 @@ export default function Footer() {
                 <ul>
                     <li>
                         <Link href="https://gitlab.eemi.tech/quentin.champenois/next-gift">
-                            Code source Github
+                            Code source
                         </Link>
                     </li>
                     <li>
                         <Link href="/mention-legal">
-                            <a>Mention Légales</a>
+                            <a>Mentions légales</a>
                         </Link>
                     </li>
                 </ul>
