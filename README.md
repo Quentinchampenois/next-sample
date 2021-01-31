@@ -1,6 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## What is Somei ? 
+
+Somei is a simple project using NextJS that allows users to store their gift ideas. The added-value is the possibility to share the gift idea with any visitor. 
+
+It allows to remember gift ideas and discover others thanks to the community.
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 First, run the development server:
 
@@ -40,3 +47,8 @@ Simple app with :
 -   When you are not logged in, you can still access to a global list of ideas of people. Those ideas needs to be public.
 
 In homepage, filters are available to filter between kind of gifts, sexe, maybe price.
+
+
+## More information
+
+This project is just a discover of NextJS, it will not be saved or continued. 
